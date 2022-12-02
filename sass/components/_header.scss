@@ -1,0 +1,76 @@
+.header {
+        background-color: var(--main-title-color);
+        display: flex;
+        border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.header__conteiner {
+        display: flex;
+        align-items: center;
+}
+
+.header__group {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+}
+
+.header__mail {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+        transition: color var(--anim);
+
+&:hover,
+&:focus {
+        color: var(--activ-title-color);
+        }
+&:active {
+        color: var(--activ-title-color);
+}
+}
+
+.header__mail--envelope {
+        fill: currentColor;
+}
+
+.header__tel {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+        transition: color var(--anim);
+        
+&:hover,
+&:focus {
+        color: var(--activ-title-color);
+}
+
+&:active {
+        color: var(--activ-title-color);
+}
+}
+
+.header__tel--smartphone {
+        fill: currentColor;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.about {
+        @extend %section;
+}
+.about {
+        display: flex;
+}
+.list-about {
+        width: 270px;
+}
+
+.list-about:last-child {
+        margin-right: auto;
+}
+
+.list-about:not(:last-child) {
+        margin-right: 30px;
+}
+
+.maim-list-benefits {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--secondary-title-color);
+}
+
+.benefits-info {
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+
+.list-our-virtues {
+        display: flex;
+}
+.main-icons-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-color: #F5F4FA;
+        margin-bottom: 30px;
+}

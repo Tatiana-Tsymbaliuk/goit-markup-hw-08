@@ -1,0 +1,38 @@
+.regular-klients {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--secondary-title-color);
+        margin-bottom: 50px;
+}
+
+.list-regular-klients {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+}
+
+.klients-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border-radius: 4px;
+        background-color: var(--main-title-color);
+        border: 1px solid rgba(175, 177, 184, 1);
+        color: #AFB1B8;
+        transition: color var(--anim), border-color var(--anim);
+}
+
+.klients-icons {
+        fill: currentColor;
+}
+
+.klients-link:hover,
+.klients-link:focus {
+        color: var(--activ-title-color);
+        border-color: var(--activ-title-color);
+}
