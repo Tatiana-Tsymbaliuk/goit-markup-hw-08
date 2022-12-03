@@ -57,7 +57,8 @@
                     margin-top:30px ;     
                 }
   @media screen and (min-width: 768px) {
-        flex-basis: calc((100% - 30px) * 2) / 2;
+        //flex-basis: calc((100% - 30px) * 2) / 2;
+        flex-basis: calc((100% - 2*30px))/ 2;
   }
 
 }
