@@ -373,6 +373,15 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-section {
     display: -webkit-box;
@@ -582,6 +591,11 @@ img {
   .footer-name-form {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-name-form {
+    margin-left: 165px;
   }
 }
 
