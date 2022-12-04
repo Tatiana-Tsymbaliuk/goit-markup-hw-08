@@ -42,7 +42,10 @@
         
                 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 165px;
 
 }
         @media screen and (min-width: 1200px) {
@@ -55,25 +58,27 @@
         display: flex;
         flex-direction: column;
        align-content: center;
-@media screen and (min-width: 768px) {
-                display: inline-block;
-        }
+
 
 @media screen and (max-width: 1199px) {
-                       margin-bottom: 20px;
+                      
                 }
        
 @media screen and (min-width: 1200px) {
                          margin-left: 93px;
+                        margin-bottom: 20px;
                 }
         }
 
 
 
 .footer-form {
-
+display: flex;
+@media screen and (max-width: 1199px) {
+flex-direction: column;
+}
       
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
         display: flex;
         gap: 12px;
                 }
@@ -94,12 +99,15 @@
         background-color: transparent;
         color: var(--main-title-color);
         transition: border-color var(--anim);
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+                        margin-left: 166px;
+                }
 
-        @media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
                 margin-bottom: 20px;
                 }
 
-        @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
             width: 358px;           
         }
 
@@ -132,11 +140,15 @@
         position: relative;
         transition: color var(--anim), background-color var(--anim);
 
-        @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
                 margin-left: 140px;
-                margin-right: 140px;
-                        
+                margin-right: 140px;       
                 }
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+         margin-left: 291px;
+
+
+ }
 }
 
 .footer-form-icon {
@@ -203,8 +215,8 @@
         margin-right: auto;
         
                 }
-@media screen and (min-width: 768px) {
-        margin-left: 165px;
+@media screen and (min-width: 768px) and (max-width: 1199px){
+        margin-left: 288px;
         
                 
                                 }

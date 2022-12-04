@@ -10,9 +10,11 @@
 }
 
 .header__group {
-        display: flex;
-        align-items: center;
-        gap: 50px;
+display: none;
+
+        //display: flex;
+        //align-items: center;
+        //gap: 50px;
 }
 
 .header__mail {
