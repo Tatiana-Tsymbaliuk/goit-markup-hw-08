@@ -231,15 +231,6 @@ img {
   color: var(--main-title-color);
 }
 
-.footer-caption {
-  font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-  margin-bottom: 20px;
-}
-
 .btn {
   display: block;
   margin-left: auto;
@@ -358,12 +349,53 @@ img {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
-.footer-container {
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-social {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-left: 70px;
+  }
+}
+
+.footer-mailinglist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,39 +403,39 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+@media screen and (min-width: 768px) {
+  .footer-mailinglist {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer-mailinglist {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-mailinglist {
+    margin-left: 93px;
+  }
 }
 
-.footer-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer-social {
-  margin-left: 70px;
-}
-
-.footer-mailinglist {
-  margin-left: 93px;
-}
-
-.footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 12px;
+@media screen and (min-width: 768px) {
+  .footer-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+  }
 }
 
 .footer-mailinglist-field {
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 358px;
+  width: 450px;
   height: 50px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -413,6 +445,16 @@ img {
   color: var(--main-title-color);
   -webkit-transition: border-color var(--anim);
   transition: border-color var(--anim);
+}
+@media screen and (max-width: 1199px) {
+  .footer-mailinglist-field {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-mailinglist-field {
+    width: 358px;
+  }
 }
 
 .footer-mailinglist-field::-webkit-input-placeholder {
@@ -466,6 +508,12 @@ img {
   -webkit-transition: color var(--anim), background-color var(--anim);
   transition: color var(--anim), background-color var(--anim);
 }
+@media screen and (max-width: 767px) {
+  .footer-form-btn {
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+}
 
 .footer-form-icon {
   position: absolute;
@@ -505,6 +553,36 @@ img {
 
 .socials-icons {
   fill: currentColor;
+}
+
+.footer-caption {
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .footer-caption {
+    margin-left: 167px;
+    margin-right: 167px;
+  }
+}
+
+.footer-name-form {
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .footer-name-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .backdrop {
@@ -789,15 +867,32 @@ img {
 }
 
 .list-about {
-  width: 270px;
+  width: 450px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .list-about {
+    width: 354px;
+    -ms-flex-preferred-size: calc(100% - 60px)/2;
+        flex-basis: calc(100% - 60px)/2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-about {
+    width: 270px;
+  }
 }
 
-.list-about:last-child {
-  margin-right: auto;
+@media screen and (min-width: 1200px) {
+  .list-about:last-child {
+    margin-right: auto;
+  }
 }
 
-.list-about:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .list-about:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .maim-list-benefits {
@@ -810,6 +905,11 @@ img {
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
+@media screen and (max-width: 767px) {
+  .maim-list-benefits {
+    text-align: center;
+  }
+}
 
 .benefits-info {
   font-size: 14px;
@@ -819,9 +919,27 @@ img {
 }
 
 .list-our-virtues {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .list-our-virtues {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-our-virtues {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .main-icons-about {
@@ -834,11 +952,21 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 270px;
+  width: 450px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 767px) {
+  .main-icons-about {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-icons-about {
+    width: 270px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1176,11 +1304,23 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 231px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .adress-group {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .adress-group {
+    width: 231px;
+    margin-left: 76px;
+  }
 }
 
 .footer-addres {
@@ -1193,6 +1333,11 @@ img {
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
 }
+@media screen and (max-width: 1199px) {
+  .footer-addres {
+    text-align: center;
+  }
+}
 
 .footer-mail {
   margin-bottom: 9px;
@@ -1204,6 +1349,11 @@ img {
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
 }
+@media screen and (max-width: 1199px) {
+  .footer-mail {
+    text-align: center;
+  }
+}
 
 .footer-tel {
   margin-bottom: 9px;
@@ -1214,6 +1364,11 @@ img {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
+}
+@media screen and (max-width: 1199px) {
+  .footer-tel {
+    text-align: center;
+  }
 }
 
 .footer-addres:hover,
@@ -1235,10 +1390,16 @@ img {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
+  font-size: 24px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: var(--activ-title-color);
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.1923076923;
+  }
 }
 
 .header__logo {
@@ -1247,6 +1408,17 @@ img {
 
 .footer-logo {
   margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .footer-logo {
+    margin-left: 163px;
+    margin-right: 163px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-logo {
+    margin-left: 115px;
+  }
 }
 
 .logo-footer {

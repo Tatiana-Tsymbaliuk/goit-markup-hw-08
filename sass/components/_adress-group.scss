@@ -1,8 +1,20 @@
 
 .adress-group {
-        display: flex;
-        width: 231px;
-        flex-direction: column;
+display: flex;
+flex-direction: column;
+
+
+@media screen and (max-width: 767px) {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 60px;
+        }
+@media screen and (min-width: 768px) {
+       width: 231px;
+       margin-left: 76px;
+}
+      
+       
 }
 
 .footer-addres {
@@ -13,6 +25,15 @@
         letter-spacing: 0.03em;
         color: var(--main-title-color);
         transition: color var(--anim);
+
+        @media screen and (max-width: 1199px) {
+                        text-align: center;
+                }
+             
+             
+        
+               
+               
 }
 
 .footer-mail {
@@ -23,6 +44,9 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         transition: color var(--anim);
+        @media screen and (max-width: 1199px) {
+                        text-align: center;
+                }
 }
 
 .footer-tel {
@@ -33,6 +57,9 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         transition: color var(--anim);
+        @media screen and (max-width: 1199px) {
+                        text-align: center;
+                }
 }
 
 .footer-addres:hover,
