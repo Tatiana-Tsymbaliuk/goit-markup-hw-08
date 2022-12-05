@@ -6,11 +6,13 @@
 
 .nav__list {
 display: none;
-
-        //display: flex;
-        //align-items: center;
-        //gap: 50px;
-        //margin-left: 93px;
+@media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-left: 93px;   
+        }
+       
 }
 .nav__link {
         display: block;

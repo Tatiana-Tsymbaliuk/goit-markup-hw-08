@@ -12,9 +12,19 @@
 .header__group {
 display: none;
 
-        //display: flex;
-        //align-items: center;
-        //gap: 50px;
+@media screen and (min-width: 768px) {
+             display: flex;  
+             
+        }
+@media screen and (max-width: 1199px){
+        flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+       
+        align-items: center;
+        gap: 50px;
+        }
+        
 }
 
 .header__mail {
@@ -36,6 +46,13 @@ display: none;
         }
 &:active {
         color: var(--activ-title-color);
+}
+
+@media screen and (max-width: 1199px) {
+padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 10px;
+       
 }
 }
 
@@ -63,6 +80,12 @@ display: none;
 
 &:active {
         color: var(--activ-title-color);
+}
+
+@media screen and (max-width: 1199px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
 }
 }
 
