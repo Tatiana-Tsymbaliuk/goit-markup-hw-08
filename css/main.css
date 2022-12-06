@@ -1600,15 +1600,19 @@ img {
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
 }
+.menu-toggle:hover, .menu-toggle:focus {
+  color: var(--activ-title-color);
+}
 
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
 }
-.menu-toggle:hover,
-.menu-toggle:focus {
-  color: var(--activ-title-color);
+.menu-btn {
+  fill: currentColor;
+  -webkit-transition: color var(--anim);
+  transition: color var(--anim);
 }
 
 .menu-container {
