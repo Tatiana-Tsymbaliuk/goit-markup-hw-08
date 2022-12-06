@@ -750,14 +750,20 @@ img {
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   padding: 40px;
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  max-height: 609px;
   border-radius: 4px;
   background-color: var(--main-title-color);
   -webkit-transition: opacity var(--anim), -webkit-transform var(--anim);
   transition: opacity var(--anim), -webkit-transform var(--anim);
   transition: transform var(--anim), opacity var(--anim);
   transition: transform var(--anim), opacity var(--anim), -webkit-transform var(--anim);
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-btn {
@@ -796,10 +802,15 @@ img {
   font-family: inherit;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+}
+@media screen and (min-width: 1200px) {
+  .modal-label {
+    line-height: 1.15;
+  }
 }
 
 .modal-form-label {
@@ -818,13 +829,19 @@ img {
 .modal-form-field {
   width: 100%;
   height: 40px;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: 1px solid transparent;
   -webkit-transition: outline var(--anim);
   transition: outline var(--anim);
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-field {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
 }
 
 .modal-form-field:focus {
@@ -914,14 +931,20 @@ img {
 }
 
 .modal-form-agreement-dsc {
-  font-size: 14px;
-  line-height: 1.7142857143;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: #757575;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-agreement-dsc {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
 }
 
 .modal-form-agreement-link {

@@ -35,12 +35,17 @@
         .menu-toggle {
                 display: none;
         }
+
+ &:hover,
+&:focus {
+        color: var(--activ-title-color);
+}       
+}
+.menu-btn{
+        fill: currentColor;
+        transition: color var(--anim);
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-        color: var(--activ-title-color);
-}
 
 .menu-container {
         position: fixed;
