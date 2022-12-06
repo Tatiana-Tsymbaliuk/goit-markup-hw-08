@@ -16,7 +16,6 @@
         cursor: pointer;
         border-style: none;
         background: var(--activ-title-color);
-
         transition: color var(--anim), background-color var(--anim);
 
 
@@ -32,6 +31,10 @@
 &:active {
         background: var(--activ-title-color);
         color: var(--main-title-color)
+}
+@media (min-width: 768px) {
+        margin-left: 283px;
+       
 }
 
 @media (min-width: 1200px) {

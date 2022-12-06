@@ -13,7 +13,7 @@
 }
 .main__caption {
         margin-left: 60px;
-                margin-right: 60px;
+        margin-right: 60px;
         width: 360px;
         font-weight: 900;
         font-size: 26px;
@@ -22,6 +22,10 @@
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--main-title-color);
+@media (min-width: 768px) {
+        margin-left: 204px;
+        margin-right: 204px;
+}
 
 @media (min-width: 1200px) {
                 width: 696px;

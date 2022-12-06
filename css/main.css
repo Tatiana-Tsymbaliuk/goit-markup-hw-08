@@ -230,6 +230,12 @@ img {
   text-transform: uppercase;
   color: var(--main-title-color);
 }
+@media (min-width: 768px) {
+  .main__caption {
+    margin-left: 204px;
+    margin-right: 204px;
+  }
+}
 @media (min-width: 1200px) {
   .main__caption {
     width: 696px;
@@ -266,6 +272,11 @@ img {
 .btn:active {
   background: var(--activ-title-color);
   color: var(--main-title-color);
+}
+@media (min-width: 768px) {
+  .btn {
+    margin-left: 283px;
+  }
 }
 @media (min-width: 1200px) {
   .btn {
