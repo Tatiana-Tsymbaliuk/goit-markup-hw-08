@@ -86,11 +86,12 @@
 }
 
 .modal-form-label {
+        display: flex;
         font-size: 12px;
         line-height: calc(14/12);
         letter-spacing: 0.01em;
         color: #757575;
-        margin-bottom: 4px;
+        padding-bottom: 4px;      
 }
 
 .modal-form-wrapper {
