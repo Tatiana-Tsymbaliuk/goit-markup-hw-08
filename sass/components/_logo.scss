@@ -7,10 +7,7 @@
         letter-spacing: 0.03em;
         color: var(--activ-title-color);
 
-@media screen and (max-width: 767px) {
-        padding-top: 16px;
-        padding-bottom: 16px;
-}
+
 @media screen and (min-width: 1200px) {
         font-size: 26px;
         line-height: calc(31/26);
@@ -25,6 +22,7 @@
 }
 
 .footer-logo {
+        display: block;
         margin-bottom: 20px;
 
 @media screen and (max-width: 767px) {

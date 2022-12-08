@@ -2,17 +2,17 @@
  @extend %section;
 }
 .our-comand {
-        
-        font-size: 28px;
-        line-height: calc(33/28);
+        margin-bottom: 30px;
+        font-size: 36px;
+        line-height: calc(42/36); 
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--secondary-title-color);
 
 @media screen and (min-width: 768px) {
-        font-size: 36px;
-        line-height: calc(42/36);   
-                }
+        font-size: 28px;
+        line-height: calc(33/28);     
+}
 @media screen and (min-width: 1200px) {
         margin-bottom: 50px;
 }

@@ -2,7 +2,7 @@
         background-color: #2F303A;
         padding-top: 60px;
         padding-bottom: 60px;
-        display: inline-block;
+       
 
         @media screen and (min-width: 1200px) {
                 display: flex;
@@ -11,6 +11,7 @@
 
 
 .footer-container {
+        margin-bottom: 60px;
 
         
 @media screen and (min-width: 1200px) {
@@ -119,10 +120,10 @@ flex-direction: column;
 }
 
 .footer-form-btn {
-        width: 200px;
+        display: flex;
         padding-top: 10px;
         padding-left: 28px;
-        padding-right: 62px;
+        padding-right: 65px;
         padding-bottom: 10px;
         border-radius: 4px;
         font-family: inherit;
@@ -141,11 +142,12 @@ flex-direction: column;
         transition: color var(--anim), background-color var(--anim);
 
 @media screen and (max-width: 767px) {
-                margin-left: 125px;
+                margin-left: auto;
+                margin-right: auto;
                        
                 }
  @media screen and (min-width: 768px) and (max-width: 1199px) {
-         margin-left: 291px;
+       
 
 
  }

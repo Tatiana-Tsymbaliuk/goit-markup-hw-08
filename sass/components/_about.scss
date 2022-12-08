@@ -5,18 +5,25 @@
         display: flex;
 }
 .list-about {
-        width: 450px;
-        margin-bottom: 30px;
+       
+        margin-bottom: 0;
 
 @media screen and (min-width: 767px)and(max-width: 1199px) {
         width: 354px;
         flex-basis: calc((100% - 2*30px))/ 2;
+        
         }
 
 @media screen and (min-width: 1200px) {
                 width: 270px;
+               
         }
 }
+
+
+       
+       
+
 
 .list-about:last-child {
         @media screen and (min-width: 1200px) {
@@ -73,7 +80,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 450px;
+        
         height: 120px;
         border-radius: 4px;
         background-color: #F5F4FA;

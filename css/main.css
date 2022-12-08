@@ -212,37 +212,37 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_s@1x.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_s@1x.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img1_s@1x.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img1_s@1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_s@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_s@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img1_s@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img1_s@2x.jpg);
   }
 }
 @media screen and (min-width: 481px) {
   .main {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_m@1x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_m@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img2_m@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img2_m@1x.jpg);
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .main {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_m@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_m@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img2_m@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img2_m@2x.jpg);
   }
 }
 @media screen and (min-width: 769px) {
   .main {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_l@1x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_l@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img3_l@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img3_l@1x.jpg);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .main {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img_l@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_l@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/img3_l@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img3_l@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -255,9 +255,6 @@ img {
 }
 
 .main__caption {
-  margin-left: 60px;
-  margin-right: 60px;
-  width: 360px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6153846154;
@@ -284,9 +281,11 @@ img {
 
 .btn {
   display: block;
-  margin-left: 140px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   padding: 10px 24px;
+  height: 50px;
   border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
@@ -378,12 +377,17 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.02em;
   color: #757575;
   -webkit-transition: color var(--anim);
   transition: color var(--anim);
+}
+@media screen and (min-width: 1200px) {
+  .header__mail {
+    font-size: 14px;
+  }
 }
 .header__mail:hover, .header__mail:focus {
   color: var(--activ-title-color);
@@ -442,7 +446,6 @@ img {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-  display: inline-block;
 }
 @media screen and (min-width: 1200px) {
   .footer {
@@ -452,6 +455,9 @@ img {
   }
 }
 
+.footer-container {
+  margin-bottom: 60px;
+}
 @media screen and (min-width: 1200px) {
   .footer-container {
     display: -webkit-box;
@@ -609,10 +615,12 @@ img {
 }
 
 .footer-form-btn {
-  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 10px;
   padding-left: 28px;
-  padding-right: 62px;
+  padding-right: 65px;
   padding-bottom: 10px;
   border-radius: 4px;
   font-family: inherit;
@@ -636,15 +644,10 @@ img {
 }
 @media screen and (max-width: 767px) {
   .footer-form-btn {
-    margin-left: 125px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-form-btn {
-    margin-left: 291px;
-  }
-}
-
 .footer-form-icon {
   position: absolute;
   top: 12px;
@@ -814,11 +817,14 @@ img {
 }
 
 .modal-form-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: #757575;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 
 .modal-form-wrapper {
@@ -1025,8 +1031,7 @@ img {
 }
 
 .list-about {
-  width: 450px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 767px) and (max-width: 1199px) {
   .list-about {
@@ -1110,7 +1115,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 450px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
@@ -1182,16 +1186,17 @@ img {
 }
 
 .our-comand {
-  font-size: 28px;
-  line-height: 1.1785714286;
+  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
 @media screen and (min-width: 768px) {
   .our-comand {
-    font-size: 36px;
-    line-height: 1.1666666667;
+    font-size: 28px;
+    line-height: 1.1785714286;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1528,12 +1533,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--activ-title-color);
 }
-@media screen and (max-width: 767px) {
-  .logo {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .logo {
     font-size: 26px;
@@ -1546,6 +1545,7 @@ img {
 }
 
 .footer-logo {
+  display: block;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 767px) {
