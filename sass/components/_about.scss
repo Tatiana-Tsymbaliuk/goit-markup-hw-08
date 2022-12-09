@@ -5,10 +5,14 @@
         display: flex;
 }
 .list-about {
-       
-        margin-bottom: 0;
 
-@media screen and (min-width: 767px)and(max-width: 1199px) {
+@media screen and (max-width: 767px) {
+            margin-bottom: 30px;   
+
+        }
+        
+
+@media screen and (min-width: 768px)and(max-width: 1199px) {
         width: 354px;
         flex-basis: calc((100% - 2*30px))/ 2;
         
@@ -21,11 +25,15 @@
 }
 
 
-       
+      
        
 
 
 .list-about:last-child {
+        @media screen and (max-width: 767px) {
+                        margin-bottom:0px;
+        
+                }
         @media screen and (min-width: 1200px) {
                 margin-right: auto;
                 }
